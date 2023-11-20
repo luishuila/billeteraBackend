@@ -7,15 +7,15 @@ const usuariosSeeder = [
       email: 'admin@admin.com',
       rol:'admin',
       password:bcrypt.hashSync('123456789', bcrypt.genSaltSync(10), null ) ,
-      documento: 123456,
+      documento: 123456789,
       celular:"12345"
   },
   {
-    nombre: 'batman',
-    email: 'huila457@gmail.com',
+    nombre: 'users',
+    email: 'users@users.com',
     rol:'users',
     password: bcrypt.hashSync('123456789', bcrypt.genSaltSync(10), null ),
-    documento:10234567,
+    documento:1023456789,
     celular:"323345678"
   }
 ]
